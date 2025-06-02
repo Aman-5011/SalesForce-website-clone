@@ -1,0 +1,315 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  
+}
+#header{
+  position: fixed;
+  background-color: white;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+
+}
+#logo{
+  width: 5%;
+  cursor: pointer;
+}
+.option{
+ display: flex;
+ color: darkblue;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: large;
+ cursor: pointer;
+}
+.option:hover{
+  color: rgb(91, 191, 224);
+}
+#contact{
+  font-weight: lighter;
+  cursor: pointer;
+}
+.icon{
+  padding: 10px;
+  border-radius: 48%;
+  cursor: pointer;
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#login{
+  display: flex;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+#login:hover{
+  background-color: lightblue;
+}
+#try{
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 6%;
+  color: aliceblue;
+  cursor: pointer;
+
+}
+#try:hover{
+  background-color: darkgreen;
+}
+#fakeheader{
+  background-color: white;
+  height: 10vh;
+}
+#page1{
+  background-color: peachpuff;
+  height: 90vh;
+  
+}
+#notice{
+  height: 7vh;
+  width: 100%;
+  background-color: rgb(1, 1, 115);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#notice p{
+  margin-left: 1.5%;
+  cursor: pointer;
+}
+#content{
+  display: flex;
+  height: 73vh;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  
+}
+
+#left{
+  background-color: white;
+  width: 45%;
+  margin-left: 50px;
+}
+#left h1{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 50px;
+  margin-left: 13px;
+  font-family: salesforce sans-serif;
+  color: rgb(1, 1, 111);
+  font-weight: 1100;
+}
+#left p{
+  font-weight: lighter;
+  font-size:x-large;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+#btns{
+  width: 100%;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+#leftbtn {
+  height: 50px;
+  width: 31%;
+  color: white;
+  background-color: rgba(70, 99, 244, 0.961);
+  margin: 10px 20px;
+  border: 1px solid rgba(70, 99, 244, 0.961);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+  font-size: larger;
+}
+#leftbtn:hover{
+  background-color: rgb(2, 2, 83);
+  border: 1px solid rgb(2, 2, 83);
+}
+
+#rightbtn{
+  height: 50px;
+  width: 31%;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+  font-size: larger;
+  border: 2px solid rgba(70, 99, 244, 0.961);
+  color: rgba(70, 99, 244, 0.961);
+}
+#rightbtn:hover{
+  background-color: rgb(193, 232, 244);
+  border: 2px solid black;
+  color: black;
+
+}
+
+#right{
+  /* overflow: hidden; */
+  width: 49%;
+  position: relative;
+ 
+}
+#bg{
+  width: 100%;
+  height: 108%;
+  /* display: block; */
+  object-fit: cover;
+  object-position: top left;
+  
+}
+#og{
+  position: absolute;
+  top: 75px;
+  left: 30px;
+  width: 550px;
+  height: auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#og:hover
+{
+  background-color: rgb(149, 219, 243);
+}
+
+#end{
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#endcontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: rgb(4, 4, 41);
+  z-index: 8;
+}
+#page2{
+  background-color: white;
+  height: 90vh;
+  width: 100%;
+}
+#cards{ 
+  height: 71%;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin: 5px;
+  margin-right: 50px;
+}
+.box{
+  width: 100%;
+  height: 90%;
+  margin: 15px;
+  margin-top: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 4px 2px rgb(217, 212, 212);
+}
+#box1{
+  margin-left: 40px;
+}
+.one{
+  margin-left: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(1, 1, 59);
+  font-weight:600;
+}
+.two{
+  margin-left: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(1, 1, 59);
+  font-weight:lighter;
+}
+#box1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+  cursor: pointer;
+}
+#box2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+  cursor: pointer;
+}
+#box3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+  cursor: pointer;
+}
+#box4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+  cursor: pointer;
+}
+
+#box4{
+  margin-right: 50px;
+}
+
+#below {
+  height: 25vh;
+  width: 100%;
+  position: relative; /* This is good */
+  overflow: hidden;   /* Optional: hides anything outside */
+}
+
+#below img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#belowbtn {
+  position: absolute; /* positions over the image */
+  bottom: 50px;        /* Push it up from bottom */
+  left: 510px;          /* Push it in from left */
+  height: 55px;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+  font-size: larger;
+  border: 2px solid rgba(1, 8, 42, 0.961);
+  color: rgba(3, 11, 54, 0.961);
+  background-color: white; /* Optional: makes it visible over dark image */
+  cursor: pointer;
+  box-shadow: 0 0 0 1px white, 0 0 0 5px #007bff;
+}
